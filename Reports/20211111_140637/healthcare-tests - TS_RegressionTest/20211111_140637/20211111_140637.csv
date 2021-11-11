@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+healthcare-tests - TS_RegressionTest,Firefox 94.0,,,2021-11-11 14:07:05,2021-11-11 14:09:04,1m - 58.346s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Firefox 94.0,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,2021-11-11 14:07:06,2021-11-11 14:07:48,42.029s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 94.0,,,2021-11-11 14:07:06,2021-11-11 14:07:31,24.770s,PASSED
+Start listener action : enableSauceLabs,Firefox 94.0,,,2021-11-11 14:07:31,2021-11-11 14:07:31,0.037s,PASSED
+"comment(""Story: Login to CURA system"")",Firefox 94.0,,,2021-11-11 14:07:31,2021-11-11 14:07:32,0.060s,PASSED
+"comment(""Given that the user has the valid login information"")",Firefox 94.0,,,2021-11-11 14:07:32,2021-11-11 14:07:32,0.004s,PASSED
+openBrowser(G_SiteURL),Firefox 94.0,,,2021-11-11 14:07:32,2021-11-11 14:07:41,9.503s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Firefox 94.0,,,2021-11-11 14:07:41,2021-11-11 14:07:43,1.514s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Firefox 94.0,,,2021-11-11 14:07:43,2021-11-11 14:07:43,0.595s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",Firefox 94.0,,,2021-11-11 14:07:43,2021-11-11 14:07:44,0.537s,PASSED
+"comment(""When he logins to CURA system"")",Firefox 94.0,,,2021-11-11 14:07:44,2021-11-11 14:07:44,0.005s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Firefox 94.0,,,2021-11-11 14:07:44,2021-11-11 14:07:45,1.051s,PASSED
+"comment(""Then he should be able to login successfully"")",Firefox 94.0,,,2021-11-11 14:07:45,2021-11-11 14:07:45,0.003s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",Firefox 94.0,,,2021-11-11 14:07:45,2021-11-11 14:07:45,0.438s,PASSED
+closeBrowser(),Firefox 94.0,,,2021-11-11 14:07:45,2021-11-11 14:07:46,0.535s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 94.0,,,2021-11-11 14:07:46,2021-11-11 14:07:46,0.021s,PASSED
+Start listener action : autoUpdateJobStatus,Firefox 94.0,,,2021-11-11 14:07:46,2021-11-11 14:07:46,0.002s,PASSED
+Video,Firefox 94.0,,,2021-11-11 14:07:48,2021-11-11 14:07:48,0.008s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Firefox 94.0,"Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed",,2021-11-11 14:07:48,2021-11-11 14:08:21,33.349s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 94.0,,,2021-11-11 14:07:48,2021-11-11 14:07:58,10.623s,PASSED
+Start listener action : enableSauceLabs,Firefox 94.0,,,2021-11-11 14:07:58,2021-11-11 14:07:58,0.004s,PASSED
+"comment(""Story: Book an appointment"")",Firefox 94.0,,,2021-11-11 14:07:59,2021-11-11 14:07:59,0.014s,PASSED
+"comment(""Given that the user has logged into their account"")",Firefox 94.0,,,2021-11-11 14:07:59,2021-11-11 14:07:59,0.004s,PASSED
+openBrowser(G_SiteURL),Firefox 94.0,,,2021-11-11 14:07:59,2021-11-11 14:08:08,9.226s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Firefox 94.0,,,2021-11-11 14:08:08,2021-11-11 14:08:12,3.952s,PASSED
+"comment(""And Appointment page is displayed"")",Firefox 94.0,,,2021-11-11 14:08:12,2021-11-11 14:08:12,0.006s,PASSED
+if (true),Firefox 94.0,,,2021-11-11 14:08:12,2021-11-11 14:08:16,3.432s,PASSED
+"comment(""When he fills in valid information in Appointment page"")",Firefox 94.0,,,2021-11-11 14:08:16,2021-11-11 14:08:16,0.001s,PASSED
+"click(findTestObject(""Page_CuraAppointment/btn_BookAppointment""))",Firefox 94.0,,,2021-11-11 14:08:16,2021-11-11 14:08:16,0.689s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Firefox 94.0,,,2021-11-11 14:08:16,2021-11-11 14:08:17,0.523s,PASSED
+"comment(""Then he should be able to book a new appointment"")",Firefox 94.0,,,2021-11-11 14:08:17,2021-11-11 14:08:17,0.005s,PASSED
+if (true),Firefox 94.0,,,2021-11-11 14:08:17,2021-11-11 14:08:18,1.445s,PASSED
+takeScreenshot(),Firefox 94.0,,,2021-11-11 14:08:18,2021-11-11 14:08:19,0.449s,PASSED
+closeBrowser(),Firefox 94.0,,,2021-11-11 14:08:19,2021-11-11 14:08:19,0.426s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 94.0,,,2021-11-11 14:08:19,2021-11-11 14:08:19,0.010s,PASSED
+Start listener action : autoUpdateJobStatus,Firefox 94.0,,,2021-11-11 14:08:19,2021-11-11 14:08:19,0.001s,PASSED
+Video,Firefox 94.0,,,2021-11-11 14:08:21,2021-11-11 14:08:21,0.002s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC3_Visual Testing Example,Firefox 94.0,,,2021-11-11 14:08:21,2021-11-11 14:09:04,42.456s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 94.0,,,2021-11-11 14:08:21,2021-11-11 14:08:30,9.111s,PASSED
+Start listener action : enableSauceLabs,Firefox 94.0,,,2021-11-11 14:08:30,2021-11-11 14:08:30,0.001s,PASSED
+"comment(""Story: Book an appointment"")",Firefox 94.0,,,2021-11-11 14:08:31,2021-11-11 14:08:31,0.012s,PASSED
+"comment(""Given that the user has logged into their account"")",Firefox 94.0,,,2021-11-11 14:08:31,2021-11-11 14:08:31,0.001s,PASSED
+openBrowser(G_SiteURL),Firefox 94.0,,,2021-11-11 14:08:31,2021-11-11 14:08:43,12.370s,PASSED
+"takeScreenshotAsCheckpoint(""login page"")",Firefox 94.0,,,2021-11-11 14:08:43,2021-11-11 14:08:45,2.055s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Firefox 94.0,,,2021-11-11 14:08:45,2021-11-11 14:08:50,4.558s,PASSED
+"comment(""And Appointment page is displayed"")",Firefox 94.0,,,2021-11-11 14:08:50,2021-11-11 14:08:50,0.002s,PASSED
+if (true),Firefox 94.0,,,2021-11-11 14:08:50,2021-11-11 14:08:54,3.887s,PASSED
+"comment(""When he fills in valid information in Appointment page"")",Firefox 94.0,,,2021-11-11 14:08:54,2021-11-11 14:08:54,0.001s,PASSED
+"click(findTestObject(""Page_CuraAppointment/btn_BookAppointment""))",Firefox 94.0,,,2021-11-11 14:08:54,2021-11-11 14:08:54,0.666s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Firefox 94.0,,,2021-11-11 14:08:54,2021-11-11 14:08:55,0.502s,PASSED
+"comment(""Then he should be able to book a new appointment"")",Firefox 94.0,,,2021-11-11 14:08:55,2021-11-11 14:08:55,0.002s,PASSED
+if (true),Firefox 94.0,,,2021-11-11 14:08:55,2021-11-11 14:09:01,6.066s,PASSED
+takeScreenshot(),Firefox 94.0,,,2021-11-11 14:09:01,2021-11-11 14:09:01,0.340s,PASSED
+closeBrowser(),Firefox 94.0,,,2021-11-11 14:09:01,2021-11-11 14:09:02,0.419s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 94.0,,,2021-11-11 14:09:02,2021-11-11 14:09:02,0.004s,PASSED
+Start listener action : autoUpdateJobStatus,Firefox 94.0,,,2021-11-11 14:09:02,2021-11-11 14:09:02,0.000s,PASSED
+Video,Firefox 94.0,,,2021-11-11 14:09:04,2021-11-11 14:09:04,0.001s,PASSED

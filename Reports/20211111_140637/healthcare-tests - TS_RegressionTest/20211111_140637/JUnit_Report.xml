@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="healthcare-tests - TS_RegressionTest" time="119.361" tests="3" failures="0" errors="0">
+   <testsuite name="healthcare-tests - TS_RegressionTest" tests="3" failures="0" errors="0" time="119.361" skipped="0" timestamp="2021-11-11 14:07:05" hostname="lylannhi - 192.168.1.226" id="Test Suites/healthcare-tests - TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/lylannhi/Downloads/MY LAPTOP 2/Katalon_Project/Project/Sample Healthy Care/SampleWebUI_HealthyCare/Reports/20211111_140637/healthcare-tests - TS_RegressionTest/20211111_140637"/>
+         <property name="logFiles" value="/Users/lylannhi/Downloads/MY LAPTOP 2/Katalon_Project/Project/Sample Healthy Care/SampleWebUI_HealthyCare/Reports/20211111_140637/healthcare-tests - TS_RegressionTest/20211111_140637/execution0.log"/>
+         <property name="attachments" value="/Users/lylannhi/Downloads/MY LAPTOP 2/Katalon_Project/Project/Sample Healthy Care/SampleWebUI_HealthyCare/Reports/20211111_140637/healthcare-tests - TS_RegressionTest/20211111_140637/1636614498984.png, keyes/keyes-login page.png, keyes/keyes-appointment page.png, keyes/keyes-booked appointment.png, /Users/lylannhi/Downloads/MY LAPTOP 2/Katalon_Project/Project/Sample Healthy Care/SampleWebUI_HealthyCare/Reports/20211111_140637/healthcare-tests - TS_RegressionTest/20211111_140637/1636614541475.png"/>
+         <property name="hostName" value="lylannhi - 192.168.1.226"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Firefox 94.0"/>
+         <property name="hostAddress" value="192.168.1.226"/>
+         <property name="sessionId" value="df53c634-325a-e640-9ced-ba6ee3261ff4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login" time="42.029" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login" status="PASSED">
+         <system-out><![CDATA[2021-11-11 14:07:06 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+2021-11-11 14:07:06 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:07:06 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:07:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-11-11 14:07:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-11 14:07:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:07:31 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2021-11-11 14:07:31 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox
+
+2021-11-11 14:07:31 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2021-11-11 14:07:31 - [TEST_STEP][PASSED] - comment("Story: Login to CURA system"): Story: Login to CURA system
+
+2021-11-11 14:07:31 - [MESSAGE][INFO] - Story: Login to CURA system
+
+2021-11-11 14:07:32 - [TEST_STEP][PASSED] - comment("Given that the user has the valid login information"): Given that the user has the valid login information
+
+2021-11-11 14:07:32 - [MESSAGE][INFO] - Given that the user has the valid login information
+
+2021-11-11 14:07:32 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:07:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-11 14:07:32 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-11-11 14:07:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-11 14:07:41 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:07:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2021-11-11 14:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2021-11-11 14:07:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-11-11 14:07:43 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-11-11 14:07:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-11-11 14:07:44 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-11-11 14:07:44 - [TEST_STEP][PASSED] - comment("When he logins to CURA system"): When he logins to CURA system
+
+2021-11-11 14:07:44 - [MESSAGE][INFO] - When he logins to CURA system
+
+2021-11-11 14:07:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-11-11 14:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-11-11 14:07:45 - [TEST_STEP][PASSED] - comment("Then he should be able to login successfully"): Then he should be able to login successfully
+
+2021-11-11 14:07:45 - [MESSAGE][INFO] - Then he should be able to login successfully
+
+2021-11-11 14:07:45 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2021-11-11 14:07:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2021-11-11 14:07:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-11 14:07:46 - [MESSAGE][PASSED] - Browser is closed
+
+2021-11-11 14:07:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2021-11-11 14:07:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-11 14:07:46 - [MESSAGE][PASSED] - Browser is closed
+
+2021-11-11 14:07:46 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Firefox
+
+2021-11-11 14:07:46 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox
+
+2021-11-11 14:07:48 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' .
+
+2021-11-11 14:07:48 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" time="33.349" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" status="PASSED">
+         <system-out><![CDATA[2021-11-11 14:07:48 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment: Test Cases/Main Test Cases/TC2_Verify Successful Appointment
+
+2021-11-11 14:07:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:07:48 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:07:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-11-11 14:07:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-11 14:07:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:07:58 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2021-11-11 14:07:58 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox
+
+2021-11-11 14:07:58 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2021-11-11 14:07:59 - [TEST_STEP][PASSED] - comment("Story: Book an appointment"): Story: Book an appointment
+
+2021-11-11 14:07:59 - [MESSAGE][INFO] - Story: Book an appointment
+
+2021-11-11 14:07:59 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+2021-11-11 14:07:59 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+2021-11-11 14:07:59 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:07:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-11 14:07:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-11-11 14:07:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-11 14:08:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:08:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Username":"John Doe", "Password":"ThisIsNotAPassword"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-11-11 14:08:08 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2021-11-11 14:08:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2021-11-11 14:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2021-11-11 14:08:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-11-11 14:08:10 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-11-11 14:08:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-11-11 14:08:11 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-11-11 14:08:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-11-11 14:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-11-11 14:08:12 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2021-11-11 14:08:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2021-11-11 14:08:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-11-11 14:08:12 - [TEST_STEP][PASSED] - comment("And Appointment page is displayed"): And Appointment page is displayed
+
+2021-11-11 14:08:12 - [MESSAGE][INFO] - And Appointment page is displayed
+
+2021-11-11 14:08:12 - [TEST_STEP][PASSED] - if (true): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2021-11-11 14:08:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_CuraAppointment/lst_Facility"), "Hongkong CURA Healthcare Center", false): All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2021-11-11 14:08:13 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2021-11-11 14:08:13 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Medicaid")): Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2021-11-11 14:08:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2021-11-11 14:08:13 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Readmission")): Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+2021-11-11 14:08:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+2021-11-11 14:08:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_VisitDate"), "27/12/2016"): Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+2021-11-11 14:08:15 - [MESSAGE][PASSED] - Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+2021-11-11 14:08:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_Comment"), "Please make appointment as soon as possible."): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2021-11-11 14:08:16 - [MESSAGE][PASSED] - Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2021-11-11 14:08:16 - [TEST_STEP][PASSED] - comment("When he fills in valid information in Appointment page"): When he fills in valid information in Appointment page
+
+2021-11-11 14:08:16 - [MESSAGE][INFO] - When he fills in valid information in Appointment page
+
+2021-11-11 14:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraAppointment/btn_BookAppointment")): Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+2021-11-11 14:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+2021-11-11 14:08:16 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+2021-11-11 14:08:17 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+2021-11-11 14:08:17 - [TEST_STEP][PASSED] - comment("Then he should be able to book a new appointment"): Then he should be able to book a new appointment
+
+2021-11-11 14:08:17 - [MESSAGE][INFO] - Then he should be able to book a new appointment
+
+2021-11-11 14:08:17 - [TEST_STEP][PASSED] - if (true): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2021-11-11 14:08:17 - [TEST_STEP][PASSED] - verifyMatch("Hongkong CURA Healthcare Center", getText(findTestObject("Page_AppointmentConfirmation/lbl_Facility")), false): Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+2021-11-11 14:08:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Facility' is: 'Hongkong CURA Healthcare Center'
+
+2021-11-11 14:08:17 - [MESSAGE][PASSED] - Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+2021-11-11 14:08:17 - [TEST_STEP][PASSED] - verifyMatch("Yes", getText(findTestObject("Page_AppointmentConfirmation/lbl_HospitalReadmission")), false): Actual text 'Yes' and expected text 'Yes' are matched 
+
+2021-11-11 14:08:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_HospitalReadmission' is: 'Yes'
+
+2021-11-11 14:08:17 - [MESSAGE][PASSED] - Actual text 'Yes' and expected text 'Yes' are matched 
+
+2021-11-11 14:08:17 - [TEST_STEP][PASSED] - verifyMatch("Medicaid", getText(findTestObject("Page_AppointmentConfirmation/lbl_Program")), false): Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+2021-11-11 14:08:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Program' is: 'Medicaid'
+
+2021-11-11 14:08:18 - [MESSAGE][PASSED] - Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+2021-11-11 14:08:18 - [TEST_STEP][PASSED] - verifyMatch("27/12/2016", getText(findTestObject("Page_AppointmentConfirmation/lbl_VisitDate")), false): Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+2021-11-11 14:08:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_VisitDate' is: '27/12/2016'
+
+2021-11-11 14:08:18 - [MESSAGE][PASSED] - Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+2021-11-11 14:08:18 - [TEST_STEP][PASSED] - verifyMatch("Please make appointment as soon as possible.", getText(findTestObject("Page_AppointmentConfirmation/lbl_Comment")), false): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2021-11-11 14:08:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Comment' is: 'Please make appointment as soon as possible.'
+
+2021-11-11 14:08:18 - [MESSAGE][PASSED] - Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2021-11-11 14:08:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-11-11 14:08:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/lylannhi/Downloads/MY LAPTOP 2/Katalon_Project/Project/Sample Healthy Care/SampleWebUI_HealthyCare/Reports/20211111_140637/healthcare-tests - TS_RegressionTest/20211111_140637/1636614498984.png]]
+
+2021-11-11 14:08:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-11 14:08:19 - [MESSAGE][PASSED] - Browser is closed
+
+2021-11-11 14:08:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2021-11-11 14:08:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-11 14:08:19 - [MESSAGE][PASSED] - Browser is closed
+
+2021-11-11 14:08:19 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Firefox
+
+2021-11-11 14:08:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox
+
+2021-11-11 14:08:21 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC2_Verify Successful Appointment' .
+
+2021-11-11 14:08:21 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC2_Verify Successful Appointment' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC3_Visual Testing Example" time="42.456" classname="Test Cases/Main Test Cases/TC3_Visual Testing Example" status="PASSED">
+         <system-out><![CDATA[2021-11-11 14:08:21 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC3_Visual Testing Example: Test Cases/Main Test Cases/TC3_Visual Testing Example
+
+2021-11-11 14:08:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:08:21 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:08:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-11-11 14:08:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-11 14:08:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:08:30 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2021-11-11 14:08:30 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox
+
+2021-11-11 14:08:30 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2021-11-11 14:08:31 - [TEST_STEP][PASSED] - comment("Story: Book an appointment"): Story: Book an appointment
+
+2021-11-11 14:08:31 - [MESSAGE][INFO] - Story: Book an appointment
+
+2021-11-11 14:08:31 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+2021-11-11 14:08:31 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+2021-11-11 14:08:31 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:08:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-11 14:08:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-11-11 14:08:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-11 14:08:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2021-11-11 14:08:43 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login page"): Taking screenshot successfully
+
+2021-11-11 14:08:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-11-11 14:08:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-login page.png]]
+
+2021-11-11 14:08:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Username":"John Doe", "Password":"ThisIsNotAPassword"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-11-11 14:08:45 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2021-11-11 14:08:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2021-11-11 14:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2021-11-11 14:08:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-11-11 14:08:48 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-11-11 14:08:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-11-11 14:08:48 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-11-11 14:08:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-11-11 14:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-11-11 14:08:49 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2021-11-11 14:08:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2021-11-11 14:08:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-11-11 14:08:50 - [TEST_STEP][PASSED] - comment("And Appointment page is displayed"): And Appointment page is displayed
+
+2021-11-11 14:08:50 - [MESSAGE][INFO] - And Appointment page is displayed
+
+2021-11-11 14:08:50 - [TEST_STEP][PASSED] - if (true): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2021-11-11 14:08:50 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("appointment page"): Taking screenshot successfully
+
+2021-11-11 14:08:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-11-11 14:08:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-appointment page.png]]
+
+2021-11-11 14:08:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_CuraAppointment/lst_Facility"), "Hongkong CURA Healthcare Center", false): All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2021-11-11 14:08:51 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2021-11-11 14:08:51 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Medicaid")): Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2021-11-11 14:08:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2021-11-11 14:08:51 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Readmission")): Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+2021-11-11 14:08:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+2021-11-11 14:08:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_VisitDate"), "27/12/2016"): Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+2021-11-11 14:08:53 - [MESSAGE][PASSED] - Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+2021-11-11 14:08:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_Comment"), "Please make appointment as soon as possible."): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2021-11-11 14:08:54 - [MESSAGE][PASSED] - Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2021-11-11 14:08:54 - [TEST_STEP][PASSED] - comment("When he fills in valid information in Appointment page"): When he fills in valid information in Appointment page
+
+2021-11-11 14:08:54 - [MESSAGE][INFO] - When he fills in valid information in Appointment page
+
+2021-11-11 14:08:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraAppointment/btn_BookAppointment")): Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+2021-11-11 14:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+2021-11-11 14:08:54 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+2021-11-11 14:08:55 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+2021-11-11 14:08:55 - [TEST_STEP][PASSED] - comment("Then he should be able to book a new appointment"): Then he should be able to book a new appointment
+
+2021-11-11 14:08:55 - [MESSAGE][INFO] - Then he should be able to book a new appointment
+
+2021-11-11 14:08:55 - [TEST_STEP][PASSED] - if (true): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2021-11-11 14:08:55 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("booked appointment", [findTestObject("Page_AppointmentConfirmation/lbl_VisitDate")]): Taking screenshot successfully
+
+2021-11-11 14:08:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-11 14:08:55 - [MESSAGE][INFO] - 1 hidden object(s)
+
+2021-11-11 14:08:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-11-11 14:08:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-booked appointment.png]]
+
+2021-11-11 14:08:59 - [TEST_STEP][PASSED] - verifyMatch("Hongkong CURA Healthcare Center", getText(findTestObject("Page_AppointmentConfirmation/lbl_Facility")), false): Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+2021-11-11 14:09:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Facility' is: 'Hongkong CURA Healthcare Center'
+
+2021-11-11 14:09:00 - [MESSAGE][PASSED] - Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+2021-11-11 14:09:00 - [TEST_STEP][PASSED] - verifyMatch("Yes", getText(findTestObject("Page_AppointmentConfirmation/lbl_HospitalReadmission")), false): Actual text 'Yes' and expected text 'Yes' are matched 
+
+2021-11-11 14:09:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_HospitalReadmission' is: 'Yes'
+
+2021-11-11 14:09:00 - [MESSAGE][PASSED] - Actual text 'Yes' and expected text 'Yes' are matched 
+
+2021-11-11 14:09:00 - [TEST_STEP][PASSED] - verifyMatch("Medicaid", getText(findTestObject("Page_AppointmentConfirmation/lbl_Program")), false): Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+2021-11-11 14:09:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Program' is: 'Medicaid'
+
+2021-11-11 14:09:00 - [MESSAGE][PASSED] - Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+2021-11-11 14:09:00 - [TEST_STEP][PASSED] - verifyMatch("27/12/2016", getText(findTestObject("Page_AppointmentConfirmation/lbl_VisitDate")), false): Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+2021-11-11 14:09:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_VisitDate' is: '27/12/2016'
+
+2021-11-11 14:09:00 - [MESSAGE][PASSED] - Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+2021-11-11 14:09:00 - [TEST_STEP][PASSED] - verifyMatch("Please make appointment as soon as possible.", getText(findTestObject("Page_AppointmentConfirmation/lbl_Comment")), false): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2021-11-11 14:09:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Comment' is: 'Please make appointment as soon as possible.'
+
+2021-11-11 14:09:01 - [MESSAGE][PASSED] - Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2021-11-11 14:09:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-11-11 14:09:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/lylannhi/Downloads/MY LAPTOP 2/Katalon_Project/Project/Sample Healthy Care/SampleWebUI_HealthyCare/Reports/20211111_140637/healthcare-tests - TS_RegressionTest/20211111_140637/1636614541475.png]]
+
+2021-11-11 14:09:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-11 14:09:02 - [MESSAGE][PASSED] - Browser is closed
+
+2021-11-11 14:09:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2021-11-11 14:09:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-11 14:09:02 - [MESSAGE][PASSED] - Browser is closed
+
+2021-11-11 14:09:02 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Firefox
+
+2021-11-11 14:09:02 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox
+
+2021-11-11 14:09:04 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC3_Visual Testing Example' .
+
+2021-11-11 14:09:04 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC3_Visual Testing Example' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-11 14:07:05 - [TEST_SUITE][PASSED] - healthcare-tests - TS_RegressionTest: Test Cases/Main Test Cases/TC3_Visual Testing Example]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
