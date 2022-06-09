@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+healthcare-tests - TS_RegressionTest,iOS - Safari 14,,,2022-06-09 13:56:39,2022-06-09 14:18:25,21m - 46.282s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,iOS - Safari 14,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,2022-06-09 13:56:39,2022-06-09 14:01:45,5m - 5.809s,PASSED
+Start listener action : sampleBeforeTestCase,iOS - Safari 14,,,2022-06-09 13:56:39,2022-06-09 13:58:47,2m - 7.730s,PASSED
+"comment(""Story: Login to CURA system"")",iOS - Safari 14,,,2022-06-09 13:58:48,2022-06-09 13:58:48,0.051s,PASSED
+"comment(""Given that the user has the valid login information"")",iOS - Safari 14,,,2022-06-09 13:58:48,2022-06-09 13:58:48,0.002s,PASSED
+openBrowser(G_SiteURL),iOS - Safari 14,,,2022-06-09 13:58:48,2022-06-09 14:01:17,2m - 28.588s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",iOS - Safari 14,,,2022-06-09 14:01:17,2022-06-09 14:01:21,4.390s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",iOS - Safari 14,,,2022-06-09 14:01:21,2022-06-09 14:01:28,7.055s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",iOS - Safari 14,,,2022-06-09 14:01:28,2022-06-09 14:01:35,6.564s,PASSED
+"comment(""When he logins to CURA system"")",iOS - Safari 14,,,2022-06-09 14:01:35,2022-06-09 14:01:35,0.004s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",iOS - Safari 14,,,2022-06-09 14:01:35,2022-06-09 14:01:38,3.313s,PASSED
+"comment(""Then he should be able to login successfully"")",iOS - Safari 14,,,2022-06-09 14:01:38,2022-06-09 14:01:38,0.008s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",iOS - Safari 14,,,2022-06-09 14:01:38,2022-06-09 14:01:41,2.577s,PASSED
+closeBrowser(),iOS - Safari 14,,,2022-06-09 14:01:41,2022-06-09 14:01:43,2.291s,PASSED
+Start listener action : sampleAfterTestCase,iOS - Safari 14,,,2022-06-09 14:01:43,2022-06-09 14:01:43,0.009s,PASSED
+Video,iOS - Safari 14,,,2022-06-09 14:01:45,2022-06-09 14:01:45,0.001s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,iOS - Safari 14,"Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed",,2022-06-09 14:01:45,2022-06-09 14:07:08,5m - 23.031s,PASSED
+Start listener action : sampleBeforeTestCase,iOS - Safari 14,,,2022-06-09 14:01:45,2022-06-09 14:02:39,53.560s,PASSED
+"comment(""Story: Book an appointment"")",iOS - Safari 14,,,2022-06-09 14:02:39,2022-06-09 14:02:39,0.007s,PASSED
+"comment(""Given that the user has logged into their account"")",iOS - Safari 14,,,2022-06-09 14:02:39,2022-06-09 14:02:39,0.005s,PASSED
+openBrowser(G_SiteURL),iOS - Safari 14,,,2022-06-09 14:02:39,2022-06-09 14:05:38,2m - 58.885s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",iOS - Safari 14,,,2022-06-09 14:05:38,2022-06-09 14:06:03,25.632s,PASSED
+"comment(""And Appointment page is displayed"")",iOS - Safari 14,,,2022-06-09 14:06:03,2022-06-09 14:06:03,0.003s,PASSED
+if (true),iOS - Safari 14,,,2022-06-09 14:06:03,2022-06-09 14:06:35,31.425s,PASSED
+"comment(""When he fills in valid information in Appointment page"")",iOS - Safari 14,,,2022-06-09 14:06:35,2022-06-09 14:06:35,0.004s,PASSED
+"click(findTestObject(""Page_CuraAppointment/btn_BookAppointment""))",iOS - Safari 14,,,2022-06-09 14:06:35,2022-06-09 14:06:38,3.337s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",iOS - Safari 14,,,2022-06-09 14:06:38,2022-06-09 14:06:41,3.279s,PASSED
+"comment(""Then he should be able to book a new appointment"")",iOS - Safari 14,,,2022-06-09 14:06:41,2022-06-09 14:06:41,0.005s,PASSED
+if (true),iOS - Safari 14,,,2022-06-09 14:06:41,2022-06-09 14:06:59,17.391s,PASSED
+takeScreenshot(),iOS - Safari 14,,,2022-06-09 14:06:59,2022-06-09 14:07:03,4.672s,PASSED
+closeBrowser(),iOS - Safari 14,,,2022-06-09 14:07:03,2022-06-09 14:07:06,2.355s,PASSED
+Start listener action : sampleAfterTestCase,iOS - Safari 14,,,2022-06-09 14:07:06,2022-06-09 14:07:06,0.008s,PASSED
+Video,iOS - Safari 14,,,2022-06-09 14:07:08,2022-06-09 14:07:08,0.011s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC3_Visual Testing Example,iOS - Safari 14,,,2022-06-09 14:07:08,2022-06-09 14:18:25,11m - 16.827s,PASSED
+Start listener action : sampleBeforeTestCase,iOS - Safari 14,,,2022-06-09 14:07:08,2022-06-09 14:10:42,3m - 33.786s,PASSED
+"comment(""Story: Book an appointment"")",iOS - Safari 14,,,2022-06-09 14:10:42,2022-06-09 14:10:42,0.006s,PASSED
+"comment(""Given that the user has logged into their account"")",iOS - Safari 14,,,2022-06-09 14:10:42,2022-06-09 14:10:42,0.002s,PASSED
+openBrowser(G_SiteURL),iOS - Safari 14,,,2022-06-09 14:10:42,2022-06-09 14:15:39,4m - 56.688s,PASSED
+"takeScreenshotAsCheckpoint(""login page"")",iOS - Safari 14,,,2022-06-09 14:15:39,2022-06-09 14:15:53,13.604s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",iOS - Safari 14,,,2022-06-09 14:15:53,2022-06-09 14:16:19,26.686s,PASSED
+"comment(""And Appointment page is displayed"")",iOS - Safari 14,,,2022-06-09 14:16:19,2022-06-09 14:16:19,0.005s,PASSED
+if (true),iOS - Safari 14,,,2022-06-09 14:16:19,2022-06-09 14:16:59,39.318s,PASSED
+"comment(""When he fills in valid information in Appointment page"")",iOS - Safari 14,,,2022-06-09 14:16:59,2022-06-09 14:16:59,0.007s,PASSED
+"click(findTestObject(""Page_CuraAppointment/btn_BookAppointment""))",iOS - Safari 14,,,2022-06-09 14:16:59,2022-06-09 14:17:02,3.381s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",iOS - Safari 14,,,2022-06-09 14:17:02,2022-06-09 14:17:05,3.357s,PASSED
+"comment(""Then he should be able to book a new appointment"")",iOS - Safari 14,,,2022-06-09 14:17:05,2022-06-09 14:17:05,0.010s,PASSED
+if (true),iOS - Safari 14,,,2022-06-09 14:17:05,2022-06-09 14:18:17,1m - 11.223s,PASSED
+takeScreenshot(),iOS - Safari 14,,,2022-06-09 14:18:17,2022-06-09 14:18:20,3.352s,PASSED
+closeBrowser(),iOS - Safari 14,,,2022-06-09 14:18:20,2022-06-09 14:18:23,2.677s,PASSED
+Start listener action : sampleAfterTestCase,iOS - Safari 14,,,2022-06-09 14:18:23,2022-06-09 14:18:23,0.005s,PASSED
+Video,iOS - Safari 14,,,2022-06-09 14:18:25,2022-06-09 14:18:25,0.005s,PASSED
