@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+healthcare-tests - TS_RegressionTest,Android - Chrome 102.0.5005.78,,,2022-06-09 15:26:22,2022-06-09 15:35:08,8m - 46.273s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Android - Chrome 102.0.5005.78,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,2022-06-09 15:26:22,2022-06-09 15:29:05,2m - 42.268s,PASSED
+Start listener action : sampleBeforeTestCase,Android - Chrome 102.0.5005.78,,,2022-06-09 15:26:23,2022-06-09 15:27:35,1m - 12.503s,PASSED
+"comment(""Story: Login to CURA system"")",Android - Chrome 102.0.5005.78,,,2022-06-09 15:27:36,2022-06-09 15:27:36,0.072s,PASSED
+"comment(""Given that the user has the valid login information"")",Android - Chrome 102.0.5005.78,,,2022-06-09 15:27:36,2022-06-09 15:27:36,0.007s,PASSED
+openBrowser(G_SiteURL),Android - Chrome 102.0.5005.78,,,2022-06-09 15:27:36,2022-06-09 15:28:41,1m - 4.531s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Android - Chrome 102.0.5005.78,,,2022-06-09 15:28:41,2022-06-09 15:28:44,3.396s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Android - Chrome 102.0.5005.78,,,2022-06-09 15:28:44,2022-06-09 15:28:50,5.957s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",Android - Chrome 102.0.5005.78,,,2022-06-09 15:28:50,2022-06-09 15:28:55,5.092s,PASSED
+"comment(""When he logins to CURA system"")",Android - Chrome 102.0.5005.78,,,2022-06-09 15:28:55,2022-06-09 15:28:55,0.007s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Android - Chrome 102.0.5005.78,,,2022-06-09 15:28:55,2022-06-09 15:28:58,3.178s,PASSED
+"comment(""Then he should be able to login successfully"")",Android - Chrome 102.0.5005.78,,,2022-06-09 15:28:58,2022-06-09 15:28:58,0.003s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",Android - Chrome 102.0.5005.78,,,2022-06-09 15:28:58,2022-06-09 15:29:00,1.599s,PASSED
+closeBrowser(),Android - Chrome 102.0.5005.78,,,2022-06-09 15:29:00,2022-06-09 15:29:03,2.589s,PASSED
+Start listener action : sampleAfterTestCase,Android - Chrome 102.0.5005.78,,,2022-06-09 15:29:03,2022-06-09 15:29:03,0.015s,PASSED
+Video,Android - Chrome 102.0.5005.78,,,2022-06-09 15:29:05,2022-06-09 15:29:05,0.005s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Android - Chrome 102.0.5005.78,"Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed",,2022-06-09 15:29:05,2022-06-09 15:31:43,2m - 38.373s,FAILED
+Start listener action : sampleBeforeTestCase,Android - Chrome 102.0.5005.78,,,2022-06-09 15:29:05,2022-06-09 15:29:55,50.359s,PASSED
+"comment(""Story: Book an appointment"")",Android - Chrome 102.0.5005.78,,,2022-06-09 15:29:55,2022-06-09 15:29:55,0.018s,PASSED
+"comment(""Given that the user has logged into their account"")",Android - Chrome 102.0.5005.78,,,2022-06-09 15:29:55,2022-06-09 15:29:55,0.007s,PASSED
+openBrowser(G_SiteURL),Android - Chrome 102.0.5005.78,,,2022-06-09 15:29:55,2022-06-09 15:30:55,59.674s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Android - Chrome 102.0.5005.78,,,2022-06-09 15:30:55,2022-06-09 15:31:20,24.542s,PASSED
+"comment(""And Appointment page is displayed"")",Android - Chrome 102.0.5005.78,,,2022-06-09 15:31:20,2022-06-09 15:31:20,0.005s,PASSED
+if (true),Android - Chrome 102.0.5005.78,,,2022-06-09 15:31:20,2022-06-09 15:31:39,19.461s,FAILED
+Start listener action : sampleAfterTestCase,Android - Chrome 102.0.5005.78,,,2022-06-09 15:31:39,2022-06-09 15:31:41,1.876s,PASSED
+Video,Android - Chrome 102.0.5005.78,,,2022-06-09 15:31:43,2022-06-09 15:31:43,0.004s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC3_Visual Testing Example,Android - Chrome 102.0.5005.78,,,2022-06-09 15:31:43,2022-06-09 15:35:08,3m - 25.134s,FAILED
+Start listener action : sampleBeforeTestCase,Android - Chrome 102.0.5005.78,,,2022-06-09 15:31:43,2022-06-09 15:32:35,52.196s,PASSED
+"comment(""Story: Book an appointment"")",Android - Chrome 102.0.5005.78,,,2022-06-09 15:32:36,2022-06-09 15:32:36,0.005s,PASSED
+"comment(""Given that the user has logged into their account"")",Android - Chrome 102.0.5005.78,,,2022-06-09 15:32:36,2022-06-09 15:32:36,0.004s,PASSED
+openBrowser(G_SiteURL),Android - Chrome 102.0.5005.78,,,2022-06-09 15:32:36,2022-06-09 15:34:23,1m - 47.538s,PASSED
+"takeScreenshotAsCheckpoint(""login page"")",Android - Chrome 102.0.5005.78,,,2022-06-09 15:34:23,2022-06-09 15:34:38,14.363s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Android - Chrome 102.0.5005.78,,,2022-06-09 15:34:38,2022-06-09 15:34:59,21.451s,PASSED
+"comment(""And Appointment page is displayed"")",Android - Chrome 102.0.5005.78,,,2022-06-09 15:34:59,2022-06-09 15:34:59,0.008s,PASSED
+if (true),Android - Chrome 102.0.5005.78,,,2022-06-09 15:34:59,2022-06-09 15:35:05,5.472s,FAILED
+Start listener action : sampleAfterTestCase,Android - Chrome 102.0.5005.78,,,2022-06-09 15:35:05,2022-06-09 15:35:06,1.602s,PASSED
+Video,Android - Chrome 102.0.5005.78,,,2022-06-09 15:35:08,2022-06-09 15:35:08,0.000s,PASSED

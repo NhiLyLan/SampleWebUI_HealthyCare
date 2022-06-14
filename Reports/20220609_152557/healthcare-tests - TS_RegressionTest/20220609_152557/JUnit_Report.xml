@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="healthcare-tests - TS_RegressionTest" time="526.273" tests="3" failures="2" errors="0">
+   <testsuite name="healthcare-tests - TS_RegressionTest" tests="3" failures="2" errors="0" time="526.273" skipped="0" timestamp="2022-06-09 15:26:22" hostname="lylannhi - 10.10.34.225" id="Test Suites/healthcare-tests - TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/lylannhi/Downloads/TestCloud/Project/SampleWebUI_HealthyCare/Reports/20220609_152557/healthcare-tests - TS_RegressionTest/20220609_152557"/>
+         <property name="logFiles" value="/Users/lylannhi/Downloads/TestCloud/Project/SampleWebUI_HealthyCare/Reports/20220609_152557/healthcare-tests - TS_RegressionTest/20220609_152557/execution0.log"/>
+         <property name="attachments" value="/Users/lylannhi/Downloads/TestCloud/Project/SampleWebUI_HealthyCare/Reports/20220609_152557/healthcare-tests - TS_RegressionTest/20220609_152557/1654763497505.png, keyes/keyes-login page.png"/>
+         <property name="hostName" value="lylannhi - 10.10.34.225"/>
+         <property name="remoteDriverUrl" value="testcloud.dev.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;adbPort&quot;: 15023,
+  &quot;appActivity&quot;: &quot;com.google.android.apps.chrome.Main&quot;,
+  &quot;appPackage&quot;: &quot;com.android.chrome&quot;,
+  &quot;browserName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;latest&quot;,
+  &quot;chromeOptions&quot;: {
+    &quot;w3c&quot;: true
+  },
+  &quot;chromedriverChromeMappingFile&quot;: &quot;/root/.testobject_devices/work/chromedriver-mapping.json&quot;,
+  &quot;chromedriverExecutableDir&quot;: &quot;/root/.testobject_devices/work/chromedrivers&quot;,
+  &quot;chromedriverPorts&quot;: [
+    [
+      26230,
+      26240
+    ]
+  ],
+  &quot;databaseEnabled&quot;: false,
+  &quot;desired&quot;: {
+    &quot;proxy&quot;: {
+      &quot;proxyType&quot;: &quot;direct&quot;
+    },
+    &quot;browserVersion&quot;: &quot;latest&quot;,
+    &quot;browserName&quot;: &quot;Chrome&quot;,
+    &quot;katalon:option&quot;: {
+      &quot;organizationId&quot;: &quot;278985&quot;,
+      &quot;unlimitedExecutionMinutes&quot;: true,
+      &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuaGkubHlAa2F0YWxvbi5jb20iLCJ1cG4iOiI0ODg1MjEiLCJncm91cHMiOlsiVVNFUiJdLCJzdGF0dXMiOiJWRVJJRklFRCIsImdpdmVuX25hbWUiOiIiLCJmYW1pbHlfbmFtZSI6IiIsImVtYWlsIjoibmhpLmx5QGthdGFsb24uY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImNyZWF0ZWRfYXQiOjE2MzQwMTM4NDYsInVwZGF0ZWRfYXQiOjE2NTQ3NDczMDAsImFtciI6WyJwd2QiXSwiaWF0IjoxNjU0NzQ3MzAxLCJleHAiOjE2NTUzNTIxMDEsImp0aSI6ImM4ODkyYWI2LWI3M2YtNDEwYi1hY2NjLWNkZjc1ZWZhNGE4NiIsImlzcyI6ImthdGFsb24tYXV0aCJ9.k5uyVBFV9NZMmy-t1ZCrFyzOUoZr0wCepoPpKoTxSogdCHYUEKBqfpGEpU2fR5tPk2HZ2WWQfWr8_LF3_V3Ekcvpt0aljLCAUKsVI63sKdOGBycrQy6-8gBXu5CMzifOyKwYzDAxfMnEZUgNmOw2ziddqKPCqP4M7JgtGeKAWcryKob6BXwBUqVWxdpvTSGHUWcCmV0a0w9TDnekcnIOTzOSpDJnkGwb0mbYVd7akQtqMsGgJkPqXwntf5ViaHjjJ79nMf5LWX5dnu7ZebILEmr83zQ_6NCe15h184qi9BxUz-RJj7zuvpFYhO1IepTklqgPM4EcyC55lVkRxNCtMg&quot;,
+      &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+      &quot;userId&quot;: 488521,
+      &quot;usingTunnel&quot;: false,
+      &quot;username&quot;: &quot;nhi.ly@katalon.com&quot;
+    },
+    &quot;platformName&quot;: &quot;Android&quot;,
+    &quot;sauce:options&quot;: {
+      &quot;name&quot;: &quot;TestCloud Automated Test Session&quot;,
+      &quot;sessionCreationTimeout&quot;: 900000
+    },
+    &quot;suppressKillServer&quot;: true,
+    &quot;chromedriverPorts&quot;: [
+      [
+        26230,
+        26240
+      ]
+    ],
+    &quot;chromedriverChromeMappingFile&quot;: &quot;/root/.testobject_devices/work/chromedriver-mapping.json&quot;,
+    &quot;adbPort&quot;: 15023,
+    &quot;uiautomator2ServerInstallTimeout&quot;: 60000,
+    &quot;chromedriverExecutableDir&quot;: &quot;/root/.testobject_devices/work/chromedrivers&quot;,
+    &quot;remoteAppsCacheLimit&quot;: 0,
+    &quot;systemPort&quot;: 8223,
+    &quot;chromeOptions&quot;: {
+      &quot;w3c&quot;: true
+    },
+    &quot;deviceName&quot;: &quot;Samsung_Galaxy_A71_5G_real_us&quot;
+  },
+  &quot;deviceApiLevel&quot;: 30,
+  &quot;deviceContextId&quot;: &quot;02ca6873-dbdc-46bb-af1b-2b7bf7d6ff0b&quot;,
+  &quot;deviceManufacturer&quot;: &quot;samsung&quot;,
+  &quot;deviceModel&quot;: &quot;SM-A716U1&quot;,
+  &quot;deviceName&quot;: &quot;10.101.72.26:16021&quot;,
+  &quot;deviceScreenDensity&quot;: 420,
+  &quot;deviceScreenSize&quot;: &quot;1080x2400&quot;,
+  &quot;deviceUDID&quot;: &quot;10.101.72.26:16021&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;jobUuid&quot;: &quot;645799b425924b0fba70701c4fc629e8&quot;,
+  &quot;katalon:option&quot;: {
+    &quot;organizationId&quot;: &quot;278985&quot;,
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuaGkubHlAa2F0YWxvbi5jb20iLCJ1cG4iOiI0ODg1MjEiLCJncm91cHMiOlsiVVNFUiJdLCJzdGF0dXMiOiJWRVJJRklFRCIsImdpdmVuX25hbWUiOiIiLCJmYW1pbHlfbmFtZSI6IiIsImVtYWlsIjoibmhpLmx5QGthdGFsb24uY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImNyZWF0ZWRfYXQiOjE2MzQwMTM4NDYsInVwZGF0ZWRfYXQiOjE2NTQ3NDczMDAsImFtciI6WyJwd2QiXSwiaWF0IjoxNjU0NzQ3MzAxLCJleHAiOjE2NTUzNTIxMDEsImp0aSI6ImM4ODkyYWI2LWI3M2YtNDEwYi1hY2NjLWNkZjc1ZWZhNGE4NiIsImlzcyI6ImthdGFsb24tYXV0aCJ9.k5uyVBFV9NZMmy-t1ZCrFyzOUoZr0wCepoPpKoTxSogdCHYUEKBqfpGEpU2fR5tPk2HZ2WWQfWr8_LF3_V3Ekcvpt0aljLCAUKsVI63sKdOGBycrQy6-8gBXu5CMzifOyKwYzDAxfMnEZUgNmOw2ziddqKPCqP4M7JgtGeKAWcryKob6BXwBUqVWxdpvTSGHUWcCmV0a0w9TDnekcnIOTzOSpDJnkGwb0mbYVd7akQtqMsGgJkPqXwntf5ViaHjjJ79nMf5LWX5dnu7ZebILEmr83zQ_6NCe15h184qi9BxUz-RJj7zuvpFYhO1IepTklqgPM4EcyC55lVkRxNCtMg&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;userId&quot;: 488521,
+    &quot;usingTunnel&quot;: false,
+    &quot;username&quot;: &quot;nhi.ly@katalon.com&quot;
+  },
+  &quot;locationContextEnabled&quot;: false,
+  &quot;networkConnectionEnabled&quot;: true,
+  &quot;pixelRatio&quot;: 2.625,
+  &quot;platform&quot;: &quot;LINUX&quot;,
+  &quot;platformName&quot;: &quot;LINUX&quot;,
+  &quot;platformVersion&quot;: &quot;11&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;remoteAppsCacheLimit&quot;: 0,
+  &quot;requestId&quot;: &quot;74172d30-1621-496c-b835-e4643512f4d1&quot;,
+  &quot;sauce:options&quot;: {
+    &quot;name&quot;: &quot;TestCloud Automated Test Session&quot;,
+    &quot;sessionCreationTimeout&quot;: 900000
+  },
+  &quot;se:cdp&quot;: &quot;ws://172.41.4.139:4444/session/45a9fede-a5d4-451b-9288-27210dc83018/se/cdp&quot;,
+  &quot;statBarHeight&quot;: 91,
+  &quot;suppressKillServer&quot;: true,
+  &quot;systemPort&quot;: 8223,
+  &quot;takesScreenshot&quot;: true,
+  &quot;testobject_device&quot;: &quot;Samsung_Galaxy_A71_5G_real_us&quot;,
+  &quot;testobject_device_name&quot;: &quot;Samsung Galaxy A71 5G&quot;,
+  &quot;testobject_device_session_id&quot;: &quot;59271fd6-98d1-4748-86c4-917cb2ff97f7&quot;,
+  &quot;testobject_test_report_api_url&quot;: &quot;https://api.us-west-1.saucelabs.com/v1/rdc/jobs/645799b425924b0fba70701c4fc629e8&quot;,
+  &quot;testobject_test_report_url&quot;: &quot;https://app.saucelabs.com/tests/645799b425924b0fba70701c4fc629e8&quot;,
+  &quot;testobject_user_id&quot;: &quot;coty_katalon&quot;,
+  &quot;uiautomator2ServerInstallTimeout&quot;: 60000,
+  &quot;usedCachedDevice&quot;: false,
+  &quot;viewportRect&quot;: {
+    &quot;left&quot;: 0,
+    &quot;top&quot;: 91,
+    &quot;width&quot;: 1080,
+    &quot;height&quot;: 2092
+  },
+  &quot;warnings&quot;: {},
+  &quot;webStorageEnabled&quot;: false
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Android"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.78"/>
+         <property name="hostAddress" value="10.10.34.225"/>
+         <property name="sessionId" value="45a9fede-a5d4-451b-9288-27210dc83018"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=127.0.0.1, proxyServerPort=8085, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login" time="162.268" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login" status="PASSED">
+         <system-out><![CDATA[2022-06-09 15:26:22 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+2022-06-09 15:26:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:26:23 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:26:23 - [MESSAGE][INFO] - User set preference: ['os', 'android']
+
+2022-06-09 15:26:23 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-06-09 15:26:23 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest']
+
+2022-06-09 15:26:23 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=278985, tunnelId=, usingTunnel=false}']
+
+2022-06-09 15:26:23 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-06-09 15:26:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 15:27:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:27:36 - [TEST_STEP][PASSED] - comment("Story: Login to CURA system"): Story: Login to CURA system
+
+2022-06-09 15:27:36 - [MESSAGE][INFO] - Story: Login to CURA system
+
+2022-06-09 15:27:36 - [TEST_STEP][PASSED] - comment("Given that the user has the valid login information"): Given that the user has the valid login information
+
+2022-06-09 15:27:36 - [MESSAGE][INFO] - Given that the user has the valid login information
+
+2022-06-09 15:27:36 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:27:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-09 15:27:41 - [MESSAGE][INFO] - User set preference: ['os', 'android']
+
+2022-06-09 15:27:41 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-06-09 15:27:41 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest']
+
+2022-06-09 15:27:41 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=278985, tunnelId=, usingTunnel=false}']
+
+2022-06-09 15:27:41 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-06-09 15:27:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 15:28:41 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:28:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2022-06-09 15:28:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2022-06-09 15:28:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2022-06-09 15:28:50 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2022-06-09 15:28:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2022-06-09 15:28:55 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2022-06-09 15:28:55 - [TEST_STEP][PASSED] - comment("When he logins to CURA system"): When he logins to CURA system
+
+2022-06-09 15:28:55 - [MESSAGE][INFO] - When he logins to CURA system
+
+2022-06-09 15:28:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2022-06-09 15:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2022-06-09 15:28:58 - [TEST_STEP][PASSED] - comment("Then he should be able to login successfully"): Then he should be able to login successfully
+
+2022-06-09 15:28:58 - [MESSAGE][INFO] - Then he should be able to login successfully
+
+2022-06-09 15:28:58 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2022-06-09 15:29:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2022-06-09 15:29:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-09 15:29:03 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-09 15:29:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2022-06-09 15:29:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-09 15:29:03 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-09 15:29:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' .
+
+2022-06-09 15:29:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" time="158.373" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Test Cases/TC2_Verify Successful Appointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_CuraAppointment/chk_Readmission'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$5.call(Unknown Source)
+	at TC2_Verify Successful Appointment.run(TC2_Verify Successful Appointment:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;checkbox&quot; id=&quot;chk_hospotal_readmission&quot; name=&quot;hospital_readmission&quot; value=&quot;Yes&quot;> is not clickable at point (8, 251). Other element would receive the click: &lt;td class=&quot;day&quot;>...&lt;/td>
+  (Session info: chrome=101.0.4951.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Lys-MacBook-Air.local', ip: 'fe80:0:0:0:460:554d:a107:a84%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {adbPort: 15003, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], databaseEnabled: false, desired: {adbPort: 15003, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], deviceName: Samsung_Galaxy_S10_real, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, platformName: Android, proxy: {proxyType: direct}, remoteAppsCacheLimit: 0, sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, suppressKillServer: true, systemPort: 8203, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 30, deviceContextId: 288cca9d-fa46-48f7-b0bc-c06..., deviceManufacturer: samsung, deviceModel: SM-G973U1, deviceName: 10.101.64.21:16017, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: 10.101.64.21:16017, javascriptEnabled: true, jobUuid: 5bc20b7f4e514f459ca29d9cb56..., katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 11, proxy: Proxy(direct), remoteAppsCacheLimit: 0, requestId: a9eeb890-4b60-4ff2-a81c-732..., sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, se:cdp: ws://172.41.4.139:4444/sess..., statBarHeight: 150, suppressKillServer: true, systemPort: 8203, takesScreenshot: true, testobject_device: Samsung_Galaxy_S10_real, testobject_device_name: Samsung Galaxy S10, testobject_device_session_id: bce1e606-e8cf-48cc-a121-2ad..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: coty_katalon, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2573, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 8ecd2275-a843-4aa7-b652-b6fe8f9b9ddd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-06-09 15:29:05 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment: Test Cases/Main Test Cases/TC2_Verify Successful Appointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_CuraAppointment/chk_Readmission'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$5.call(Unknown Source)
+	at TC2_Verify Successful Appointment.run(TC2_Verify Successful Appointment:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" id="chk_hospotal_readmission" name="hospital_readmission" value="Yes"> is not clickable at point (8, 251). Other element would receive the click: <td class="day">...</td>
+  (Session info: chrome=101.0.4951.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Lys-MacBook-Air.local', ip: 'fe80:0:0:0:460:554d:a107:a84%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {adbPort: 15003, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], databaseEnabled: false, desired: {adbPort: 15003, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], deviceName: Samsung_Galaxy_S10_real, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, platformName: Android, proxy: {proxyType: direct}, remoteAppsCacheLimit: 0, sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, suppressKillServer: true, systemPort: 8203, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 30, deviceContextId: 288cca9d-fa46-48f7-b0bc-c06..., deviceManufacturer: samsung, deviceModel: SM-G973U1, deviceName: 10.101.64.21:16017, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: 10.101.64.21:16017, javascriptEnabled: true, jobUuid: 5bc20b7f4e514f459ca29d9cb56..., katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 11, proxy: Proxy(direct), remoteAppsCacheLimit: 0, requestId: a9eeb890-4b60-4ff2-a81c-732..., sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, se:cdp: ws://172.41.4.139:4444/sess..., statBarHeight: 150, suppressKillServer: true, systemPort: 8203, takesScreenshot: true, testobject_device: Samsung_Galaxy_S10_real, testobject_device_name: Samsung Galaxy S10, testobject_device_session_id: bce1e606-e8cf-48cc-a121-2ad..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: coty_katalon, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2573, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 8ecd2275-a843-4aa7-b652-b6fe8f9b9ddd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-06-09 15:29:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:29:05 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:29:05 - [MESSAGE][INFO] - User set preference: ['os', 'android']
+
+2022-06-09 15:29:05 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-06-09 15:29:05 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest']
+
+2022-06-09 15:29:05 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=278985, tunnelId=, usingTunnel=false}']
+
+2022-06-09 15:29:05 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-06-09 15:29:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 15:29:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:29:55 - [TEST_STEP][PASSED] - comment("Story: Book an appointment"): Story: Book an appointment
+
+2022-06-09 15:29:55 - [MESSAGE][INFO] - Story: Book an appointment
+
+2022-06-09 15:29:55 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+2022-06-09 15:29:55 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+2022-06-09 15:29:55 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:29:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-09 15:29:57 - [MESSAGE][INFO] - User set preference: ['os', 'android']
+
+2022-06-09 15:29:57 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-06-09 15:29:57 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest']
+
+2022-06-09 15:29:57 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=278985, tunnelId=, usingTunnel=false}']
+
+2022-06-09 15:29:57 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-06-09 15:29:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 15:30:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:30:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Username":"John Doe", "Password":"ThisIsNotAPassword"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2022-06-09 15:30:55 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2022-06-09 15:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2022-06-09 15:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2022-06-09 15:30:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2022-06-09 15:31:05 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2022-06-09 15:31:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2022-06-09 15:31:13 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2022-06-09 15:31:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2022-06-09 15:31:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2022-06-09 15:31:18 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2022-06-09 15:31:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2022-06-09 15:31:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2022-06-09 15:31:20 - [TEST_STEP][PASSED] - comment("And Appointment page is displayed"): And Appointment page is displayed
+
+2022-06-09 15:31:20 - [MESSAGE][INFO] - And Appointment page is displayed
+
+2022-06-09 15:31:20 - [TEST_STEP][FAILED] - if (true): Unable to check object 'Object Repository/Page_CuraAppointment/chk_Readmission' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_CuraAppointment/chk_Readmission'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$5.call(Unknown Source)
+	at TC2_Verify Successful Appointment.run(TC2_Verify Successful Appointment:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" id="chk_hospotal_readmission" name="hospital_readmission" value="Yes"> is not clickable at point (8, 251). Other element would receive the click: <td class="day">...</td>
+  (Session info: chrome=101.0.4951.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Lys-MacBook-Air.local', ip: 'fe80:0:0:0:460:554d:a107:a84%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {adbPort: 15003, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], databaseEnabled: false, desired: {adbPort: 15003, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], deviceName: Samsung_Galaxy_S10_real, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, platformName: Android, proxy: {proxyType: direct}, remoteAppsCacheLimit: 0, sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, suppressKillServer: true, systemPort: 8203, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 30, deviceContextId: 288cca9d-fa46-48f7-b0bc-c06..., deviceManufacturer: samsung, deviceModel: SM-G973U1, deviceName: 10.101.64.21:16017, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: 10.101.64.21:16017, javascriptEnabled: true, jobUuid: 5bc20b7f4e514f459ca29d9cb56..., katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 11, proxy: Proxy(direct), remoteAppsCacheLimit: 0, requestId: a9eeb890-4b60-4ff2-a81c-732..., sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, se:cdp: ws://172.41.4.139:4444/sess..., statBarHeight: 150, suppressKillServer: true, systemPort: 8203, takesScreenshot: true, testobject_device: Samsung_Galaxy_S10_real, testobject_device_name: Samsung Galaxy S10, testobject_device_session_id: bce1e606-e8cf-48cc-a121-2ad..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: coty_katalon, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2573, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 8ecd2275-a843-4aa7-b652-b6fe8f9b9ddd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$5.call(Unknown Source)
+	at Script1482850543053.run(Script1482850543053.groovy:38)
+	... 13 more
+)
+
+2022-06-09 15:31:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_CuraAppointment/lst_Facility"), "Hongkong CURA Healthcare Center", false): All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2022-06-09 15:31:29 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2022-06-09 15:31:29 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Medicaid")): Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2022-06-09 15:31:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2022-06-09 15:31:32 - [TEST_STEP][FAILED] - check(findTestObject("Page_CuraAppointment/chk_Readmission")): Unable to check object 'Object Repository/Page_CuraAppointment/chk_Readmission' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_CuraAppointment/chk_Readmission'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$5.call(Unknown Source)
+	at TC2_Verify Successful Appointment.run(TC2_Verify Successful Appointment:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" id="chk_hospotal_readmission" name="hospital_readmission" value="Yes"> is not clickable at point (8, 251). Other element would receive the click: <td class="day">...</td>
+  (Session info: chrome=101.0.4951.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Lys-MacBook-Air.local', ip: 'fe80:0:0:0:460:554d:a107:a84%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {adbPort: 15003, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], databaseEnabled: false, desired: {adbPort: 15003, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], deviceName: Samsung_Galaxy_S10_real, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, platformName: Android, proxy: {proxyType: direct}, remoteAppsCacheLimit: 0, sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, suppressKillServer: true, systemPort: 8203, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 30, deviceContextId: 288cca9d-fa46-48f7-b0bc-c06..., deviceManufacturer: samsung, deviceModel: SM-G973U1, deviceName: 10.101.64.21:16017, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: 10.101.64.21:16017, javascriptEnabled: true, jobUuid: 5bc20b7f4e514f459ca29d9cb56..., katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 11, proxy: Proxy(direct), remoteAppsCacheLimit: 0, requestId: a9eeb890-4b60-4ff2-a81c-732..., sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, se:cdp: ws://172.41.4.139:4444/sess..., statBarHeight: 150, suppressKillServer: true, systemPort: 8203, takesScreenshot: true, testobject_device: Samsung_Galaxy_S10_real, testobject_device_name: Samsung Galaxy S10, testobject_device_session_id: bce1e606-e8cf-48cc-a121-2ad..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: coty_katalon, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2573, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 8ecd2275-a843-4aa7-b652-b6fe8f9b9ddd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$5.call(Unknown Source)
+	at Script1482850543053.run(Script1482850543053.groovy:38)
+	... 13 more
+)
+
+2022-06-09 15:31:39 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/Page_CuraAppointment/chk_Readmission' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_CuraAppointment/chk_Readmission'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$5.call(Unknown Source)
+	at TC2_Verify Successful Appointment.run(TC2_Verify Successful Appointment:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" id="chk_hospotal_readmission" name="hospital_readmission" value="Yes"> is not clickable at point (8, 251). Other element would receive the click: <td class="day">...</td>
+  (Session info: chrome=101.0.4951.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Lys-MacBook-Air.local', ip: 'fe80:0:0:0:460:554d:a107:a84%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {adbPort: 15003, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], databaseEnabled: false, desired: {adbPort: 15003, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], deviceName: Samsung_Galaxy_S10_real, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, platformName: Android, proxy: {proxyType: direct}, remoteAppsCacheLimit: 0, sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, suppressKillServer: true, systemPort: 8203, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 30, deviceContextId: 288cca9d-fa46-48f7-b0bc-c06..., deviceManufacturer: samsung, deviceModel: SM-G973U1, deviceName: 10.101.64.21:16017, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: 10.101.64.21:16017, javascriptEnabled: true, jobUuid: 5bc20b7f4e514f459ca29d9cb56..., katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 11, proxy: Proxy(direct), remoteAppsCacheLimit: 0, requestId: a9eeb890-4b60-4ff2-a81c-732..., sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, se:cdp: ws://172.41.4.139:4444/sess..., statBarHeight: 150, suppressKillServer: true, systemPort: 8203, takesScreenshot: true, testobject_device: Samsung_Galaxy_S10_real, testobject_device_name: Samsung Galaxy S10, testobject_device_session_id: bce1e606-e8cf-48cc-a121-2ad..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: coty_katalon, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2573, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 8ecd2275-a843-4aa7-b652-b6fe8f9b9ddd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$5.call(Unknown Source)
+	at Script1482850543053.run(Script1482850543053.groovy:38)
+	... 13 more
+)
+[[ATTACHMENT|/Users/lylannhi/Downloads/TestCloud/Project/SampleWebUI_HealthyCare/Reports/20220609_152557/healthcare-tests - TS_RegressionTest/20220609_152557/1654763497505.png]]
+
+2022-06-09 15:31:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2022-06-09 15:31:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-09 15:31:41 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-09 15:31:43 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC2_Verify Successful Appointment' .
+
+2022-06-09 15:31:43 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC2_Verify Successful Appointment' .]]></system-out>
+         <system-err><![CDATA[2022-06-09 15:29:05 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment: Test Cases/Main Test Cases/TC2_Verify Successful Appointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_CuraAppointment/chk_Readmission'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$5.call(Unknown Source)
+	at TC2_Verify Successful Appointment.run(TC2_Verify Successful Appointment:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" id="chk_hospotal_readmission" name="hospital_readmission" value="Yes"> is not clickable at point (8, 251). Other element would receive the click: <td class="day">...</td>
+  (Session info: chrome=101.0.4951.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Lys-MacBook-Air.local', ip: 'fe80:0:0:0:460:554d:a107:a84%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {adbPort: 15003, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], databaseEnabled: false, desired: {adbPort: 15003, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], deviceName: Samsung_Galaxy_S10_real, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, platformName: Android, proxy: {proxyType: direct}, remoteAppsCacheLimit: 0, sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, suppressKillServer: true, systemPort: 8203, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 30, deviceContextId: 288cca9d-fa46-48f7-b0bc-c06..., deviceManufacturer: samsung, deviceModel: SM-G973U1, deviceName: 10.101.64.21:16017, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: 10.101.64.21:16017, javascriptEnabled: true, jobUuid: 5bc20b7f4e514f459ca29d9cb56..., katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 11, proxy: Proxy(direct), remoteAppsCacheLimit: 0, requestId: a9eeb890-4b60-4ff2-a81c-732..., sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, se:cdp: ws://172.41.4.139:4444/sess..., statBarHeight: 150, suppressKillServer: true, systemPort: 8203, takesScreenshot: true, testobject_device: Samsung_Galaxy_S10_real, testobject_device_name: Samsung Galaxy S10, testobject_device_session_id: bce1e606-e8cf-48cc-a121-2ad..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: coty_katalon, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2573, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 8ecd2275-a843-4aa7-b652-b6fe8f9b9ddd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC3_Visual Testing Example" time="205.134" classname="Test Cases/Main Test Cases/TC3_Visual Testing Example" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Test Cases/TC3_Visual Testing Example FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC3_Visual Testing Example.run(TC3_Visual Testing Example:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-06-09 15:31:43 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC3_Visual Testing Example: Test Cases/Main Test Cases/TC3_Visual Testing Example FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC3_Visual Testing Example.run(TC3_Visual Testing Example:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-06-09 15:31:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:31:43 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:31:43 - [MESSAGE][INFO] - User set preference: ['os', 'android']
+
+2022-06-09 15:31:43 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-06-09 15:31:43 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest']
+
+2022-06-09 15:31:43 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=278985, tunnelId=, usingTunnel=false}']
+
+2022-06-09 15:31:43 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-06-09 15:31:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 15:32:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:32:36 - [TEST_STEP][PASSED] - comment("Story: Book an appointment"): Story: Book an appointment
+
+2022-06-09 15:32:36 - [MESSAGE][INFO] - Story: Book an appointment
+
+2022-06-09 15:32:36 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+2022-06-09 15:32:36 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+2022-06-09 15:32:36 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:32:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-09 15:32:37 - [MESSAGE][INFO] - User set preference: ['os', 'android']
+
+2022-06-09 15:32:37 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-06-09 15:32:37 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest']
+
+2022-06-09 15:32:37 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=278985, tunnelId=, usingTunnel=false}']
+
+2022-06-09 15:32:37 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-06-09 15:32:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 15:34:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-06-09 15:34:23 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login page"): Taking screenshot successfully
+
+2022-06-09 15:34:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-09 15:34:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-login page.png]]
+
+2022-06-09 15:34:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Username":"John Doe", "Password":"ThisIsNotAPassword"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2022-06-09 15:34:38 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2022-06-09 15:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2022-06-09 15:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2022-06-09 15:34:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2022-06-09 15:34:47 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2022-06-09 15:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2022-06-09 15:34:54 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2022-06-09 15:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2022-06-09 15:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2022-06-09 15:34:57 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2022-06-09 15:34:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2022-06-09 15:34:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2022-06-09 15:34:59 - [TEST_STEP][PASSED] - comment("And Appointment page is displayed"): And Appointment page is displayed
+
+2022-06-09 15:34:59 - [MESSAGE][INFO] - And Appointment page is displayed
+
+2022-06-09 15:34:59 - [TEST_STEP][FAILED] - if (true): Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC3_Visual Testing Example.run(TC3_Visual Testing Example:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at Script1603792843932.run(Script1603792843932.groovy:41)
+	... 13 more
+)
+
+2022-06-09 15:34:59 - [TEST_STEP][FAILED] - takeScreenshotAsCheckpoint("appointment page"): Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC3_Visual Testing Example.run(TC3_Visual Testing Example:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at Script1603792843932.run(Script1603792843932.groovy:41)
+	... 13 more
+)
+
+2022-06-09 15:35:04 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC3_Visual Testing Example.run(TC3_Visual Testing Example:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at Script1603792843932.run(Script1603792843932.groovy:41)
+	... 13 more
+)
+
+2022-06-09 15:35:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2022-06-09 15:35:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-09 15:35:06 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-09 15:35:08 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC3_Visual Testing Example' .
+
+2022-06-09 15:35:08 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC3_Visual Testing Example' .]]></system-out>
+         <system-err><![CDATA[2022-06-09 15:31:43 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC3_Visual Testing Example: Test Cases/Main Test Cases/TC3_Visual Testing Example FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC3_Visual Testing Example.run(TC3_Visual Testing Example:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-09 15:26:22 - [TEST_SUITE][FAILED] - healthcare-tests - TS_RegressionTest: Test Cases/Main Test Cases/TC2_Verify Successful Appointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_CuraAppointment/chk_Readmission'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$5.call(Unknown Source)
+	at TC2_Verify Successful Appointment.run(TC2_Verify Successful Appointment:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" id="chk_hospotal_readmission" name="hospital_readmission" value="Yes"> is not clickable at point (8, 251). Other element would receive the click: <td class="day">...</td>
+  (Session info: chrome=101.0.4951.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Lys-MacBook-Air.local', ip: 'fe80:0:0:0:460:554d:a107:a84%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {adbPort: 15003, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], databaseEnabled: false, desired: {adbPort: 15003, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], deviceName: Samsung_Galaxy_S10_real, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, platformName: Android, proxy: {proxyType: direct}, remoteAppsCacheLimit: 0, sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, suppressKillServer: true, systemPort: 8203, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 30, deviceContextId: 288cca9d-fa46-48f7-b0bc-c06..., deviceManufacturer: samsung, deviceModel: SM-G973U1, deviceName: 10.101.64.21:16017, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: 10.101.64.21:16017, javascriptEnabled: true, jobUuid: 5bc20b7f4e514f459ca29d9cb56..., katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 11, proxy: Proxy(direct), remoteAppsCacheLimit: 0, requestId: a9eeb890-4b60-4ff2-a81c-732..., sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, se:cdp: ws://172.41.4.139:4444/sess..., statBarHeight: 150, suppressKillServer: true, systemPort: 8203, takesScreenshot: true, testobject_device: Samsung_Galaxy_S10_real, testobject_device_name: Samsung Galaxy S10, testobject_device_session_id: bce1e606-e8cf-48cc-a121-2ad..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: coty_katalon, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2573, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 8ecd2275-a843-4aa7-b652-b6fe8f9b9ddd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-06-09 15:26:22 - [TEST_SUITE][FAILED] - healthcare-tests - TS_RegressionTest: Test Cases/Main Test Cases/TC2_Verify Successful Appointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/Page_CuraAppointment/chk_Readmission'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$5.call(Unknown Source)
+	at TC2_Verify Successful Appointment.run(TC2_Verify Successful Appointment:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654763157252.run(TempTestSuite1654763157252.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" id="chk_hospotal_readmission" name="hospital_readmission" value="Yes"> is not clickable at point (8, 251). Other element would receive the click: <td class="day">...</td>
+  (Session info: chrome=101.0.4951.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Lys-MacBook-Air.local', ip: 'fe80:0:0:0:460:554d:a107:a84%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {adbPort: 15003, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], databaseEnabled: false, desired: {adbPort: 15003, browserName: Chrome, browserVersion: latest, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[26030, 26040]], deviceName: Samsung_Galaxy_S10_real, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, platformName: Android, proxy: {proxyType: direct}, remoteAppsCacheLimit: 0, sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, suppressKillServer: true, systemPort: 8203, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 30, deviceContextId: 288cca9d-fa46-48f7-b0bc-c06..., deviceManufacturer: samsung, deviceModel: SM-G973U1, deviceName: 10.101.64.21:16017, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: 10.101.64.21:16017, javascriptEnabled: true, jobUuid: 5bc20b7f4e514f459ca29d9cb56..., katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 278985, unlimitedExecutionMinutes: true, userId: 488521, username: nhi.ly@katalon.com, usingTunnel: false}, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 11, proxy: Proxy(direct), remoteAppsCacheLimit: 0, requestId: a9eeb890-4b60-4ff2-a81c-732..., sauce:options: {name: TestCloud Automated Test Se..., sessionCreationTimeout: 900000}, se:cdp: ws://172.41.4.139:4444/sess..., statBarHeight: 150, suppressKillServer: true, systemPort: 8203, takesScreenshot: true, testobject_device: Samsung_Galaxy_S10_real, testobject_device_name: Samsung Galaxy S10, testobject_device_session_id: bce1e606-e8cf-48cc-a121-2ad..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: coty_katalon, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2573, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 8ecd2275-a843-4aa7-b652-b6fe8f9b9ddd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

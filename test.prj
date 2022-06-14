@@ -6,7 +6,7 @@
    <UUID>99835a50-927a-4cae-a15b-85786ef170e3</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/lylannhi/Downloads/MY LAPTOP 2/Katalon_Project/Sample Helthcare/test.prj</projectFileLocation>
+   <projectFileLocation>/Users/lylannhi/Downloads/TestCloud/Project/SampleWebUI_HealthyCare/test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -25,5 +25,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>WEBUI</type>
 </Project>
